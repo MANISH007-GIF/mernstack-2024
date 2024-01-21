@@ -36,8 +36,6 @@ const URL = "http://localhost:5000/api/auth/register";
     console.log(user);
     // connect backend
     try {
-        
-   
     const respponse = await fetch(URL, {
         method:"POST",
         headers:{
